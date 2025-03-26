@@ -62,6 +62,10 @@ export default {
     Vue.component('bm-city-list', BmCityList)
     Vue.component('bm-panorama', BmPanorama)
     Vue.component('bm-control', BmControl)
+    Vue.component("bm-marker-cluster", BmlMarkerClusterer);
+    Vue.component("bm-lushu", BmlLushu);
+    Vue.component("bm-heatmap", BmlHeatmap);
+    Vue.component("bm-curve-line", BmlCurveLine);
 
     Vue.component('bm-marker', BmMarker)
     Vue.component('bm-point-collection', BmPointCollection)
@@ -91,14 +95,41 @@ export default {
 }
 
 export {
-  BaiduMap,
-  BmScale, BmNavigation, BmMapType, BmOverviewMap, BmGeolocation, BmCopyright, BmCityList, BmPanorama, BmControl,
-  BmMarker, BmPointCollection, BmPolyline, BmPolygon, BmCircle, BmGround, BmLabel, BmInfoWindow, BmOverlay,
-  BmContextMenu, BmContextMenuItem,
-  BmLocalSearch, BmTransit, BmWalking, BmDriving, BmBus,
-  BmTile, BmTraffic,
-  BmBoundary, BmAutoComplete
-}
+	BaiduMap,
+	BmScale,
+	BmNavigation,
+	BmMapType,
+	BmOverviewMap,
+	BmGeolocation,
+	BmCopyright,
+	BmCityList,
+	BmPanorama,
+	BmControl,
+	BmMarker,
+	BmPointCollection,
+	BmPolyline,
+	BmPolygon,
+	BmCircle,
+	BmGround,
+	BmLabel,
+	BmInfoWindow,
+	BmOverlay,
+	BmContextMenu,
+	BmContextMenuItem,
+	BmLocalSearch,
+	BmTransit,
+	BmWalking,
+	BmDriving,
+	BmBus,
+	BmTile,
+	BmTraffic,
+	BmBoundary,
+	BmAutoComplete,
+	BmlMarkerClusterer,
+  BmlLushu,
+  BmlHeatmap,
+  BmlCurveLine
+};
 
 export {
   getAddressByPoints,

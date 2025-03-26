@@ -14,6 +14,7 @@ export const deleteEmptyKey = (obj) => {
 }
 
 let config = {
+    baseUrl: 'https://api.map.baidu.com',
     v: '3.0',
     type: 'API'
 };

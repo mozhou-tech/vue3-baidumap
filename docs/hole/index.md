@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { BaiduMap } from 'vue-baidu-map-3x'
+import { BaiduMap } from '@mozhou-tech/vue3-baidumap'
 </script>
 
 <style>

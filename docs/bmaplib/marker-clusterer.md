@@ -36,7 +36,7 @@ const customStyles = ref(false);
 const bmlMarker = ref(null);
 
 onMounted(()=>{
-  import('vue-baidu-map-3x/extra/MarkerClusterer.vue').then(module=>{
+  import('@mozhou-tech/vue3-baidumap/extra/MarkerClusterer.vue').then(module=>{
     bmlMarker.value = module.default;
   });
 });

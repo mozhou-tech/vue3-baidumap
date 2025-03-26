@@ -4,7 +4,7 @@
  * @Date: 2023-08-30 10:58:37
  * @LastEditTime: 2023-08-30 10:58:46
  * @LastEditors: YangJianFei
- * @FilePath: \vue-baidu-map-3x\vitepress_modules_edit\components\NavBar.vue
+ * @FilePath: \@mozhou-tech/vue3-baidumap\vitepress_modules_edit\components\NavBar.vue
 -->
 <script setup lang="ts">
 import NavBarTitle from './NavBarTitle.vue'

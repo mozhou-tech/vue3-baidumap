@@ -29,7 +29,7 @@ import { ref, onMounted, nextTick } from 'vue';
 const props = defineProps({
   name: {
     type: String,
-    default: 'vue-baidu-map-3x'
+    default: '@mozhou-tech/vue3-baidumap'
   }
 });
 

@@ -4,7 +4,7 @@
  * @Date: 2023-03-14 11:14:25
  * @LastEditTime: 2025-03-24 09:51:14
  * @LastEditors: YangJianFei 1294485765@qq.com
- * @FilePath: /vue-baidu-map-3x/docs/help/index.md
+ * @FilePath: /@mozhou-tech/vue3-baidumap/docs/help/index.md
 -->
 ## 作者微信
 

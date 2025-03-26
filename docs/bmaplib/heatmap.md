@@ -29,7 +29,7 @@ import { ref, onMounted } from 'vue';
 const bmlHeatmap = ref(null);
 
 onMounted(()=>{
-  import('vue-baidu-map-3x/extra/Heatmap.vue').then(module=>{
+  import('@mozhou-tech/vue3-baidumap/extra/Heatmap.vue').then(module=>{
     bmlHeatmap.value = module.default;
   });
 });
@@ -140,7 +140,7 @@ const data = ref([
 
 <script setup>
 import { ref } from 'vue';
-import { BmlHeatmap } from 'vue-baidu-map-3x';
+import { BmlHeatmap } from '@mozhou-tech/vue3-baidumap';
 
 const data = ref([
   { lng: 116.418261, lat: 39.921984, count: 50 },

@@ -4,7 +4,7 @@
  * @Date: 2023-03-14 11:14:25
  * @LastEditTime: 2024-06-18 18:03:19
  * @LastEditors: YangJianFei
- * @FilePath: \vue-baidu-map-3x\src\components\test.vue
+ * @FilePath: \@mozhou-tech/vue3-baidumap\src\components\test.vue
 -->
 <!-- vue 3 引入百度api -->
 <template>
@@ -22,7 +22,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import { BmlMarkerClusterer } from 'c';
+// import { BmlMarkerClusterer } from 'c';
 
 const markers = ref([]);
 const points = ref([]);

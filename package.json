@@ -1,8 +1,8 @@
 {
-  "name": "vue-baidu-map-3x",
+  "name": "@mozhou-tech/vue3-baidumap",
   "author": "YangJianFei",
   "private": false,
-  "version": "1.0.40",
+  "version": "1.0.0",
   "description": "vue-baidu-map的vue3版本（支持v2.0、v3.0和webGl api）。Baidu Map Component for Vue 3.0 (support v2.0 、 v3.0 and webGl api)",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "release": "npm run build && npm publish --access public"
   },
   "keywords": [
     "vite",
@@ -23,7 +24,7 @@
     "vue2-baidu-map",
     "vue3-baidu-map",
     "vue3x-baidu-map",
-    "vue-baidu-map-3x",
+    "@mozhou-tech/vue3-baidumap",
     "vue-baidu-map-3",
     "vue-baidu-map-3.0",
     "vue-baidu-map-v3"
@@ -34,23 +35,23 @@
     "types",
     "vetur"
   ],
-  "main": "./dist/vue-baidu-map-3x.umd.js",
-  "module": "./dist/vue-baidu-map-3x.es.js",
+  "main": "./dist/@mozhou-tech/vue3-baidumap.umd.js",
+  "module": "./dist/@mozhou-tech/vue3-baidumap.es.js",
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
-      "import": "./dist/vue-baidu-map-3x.es.js",
-      "require": "./dist/vue-baidu-map-3x.umd.js"
+      "import": "./dist/@mozhou-tech/vue3-baidumap.es.js",
+      "require": "./dist/@mozhou-tech/vue3-baidumap.umd.js"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YangJianFei/vue-baidu-map-3x.git"
+    "url": "git+https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap.git"
   },
   "bugs": {
-    "url": "https://github.com/YangJianFei/vue-baidu-map-3x/issues"
+    "url": "https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap/issues"
   },
-  "homepage": "https://github.com/YangJianFei/vue-baidu-map-3x#readme",
+  "homepage": "https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap#readme",
   "license": "MIT",
   "dependencies": {
     "@yangjianfei/bmaplib.lushu": "^1.0.0",
@@ -58,6 +59,7 @@
     "bmaplib.distancetool": "^1.0.2",
     "bmaplib.heatmap": "^1.0.4",
     "bmaplib.markerclusterer": "^1.0.13",
+    "nanoid": "^5.1.2",
     "tiny-emitter": "^2.1.0",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14"
@@ -74,11 +76,17 @@
     "typescript": "^4.8.2",
     "vite": "^2.8.0",
     "vitepress": "0.22.3",
-    "vue-baidu-map-3x": "file:components"
+    "@mozhou-tech/vue3-baidumap": "file:components"
   },
   "typings": "types/index.d.ts",
   "vetur": {
     "tags": "vetur/tags.json",
     "attributes": "vetur/attr.json"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
   }
 }

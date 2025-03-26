@@ -84,7 +84,7 @@ export default {
         waypoints: getWaypoints(waypoints)
       })
     },
-    endCity(val) {
+      endCity(val) {
       const { originInstance, start, end, startCity, waypoints, getWaypoints } = this
       originInstance.search(start, end, {
         startCity,
@@ -164,6 +164,7 @@ export default {
           instance.$emit('polylinesset', e)
         },
         onResultsHtmlSet(e) {
+          console.log('resultshtmlset')
           instance.$emit('resultshtmlset', e)
         }
       })

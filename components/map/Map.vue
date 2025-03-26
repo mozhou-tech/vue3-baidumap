@@ -285,10 +285,10 @@ export default {
           window.document.body.appendChild($script)
           switch (getConfig().type) {
             case 'WebGL':
-              $script.src = `https://api.map.baidu.com/api?v=1.0&type=webgl&ak=${getConfig().ak}&callback=_initBaiduMap`
+              $script.src = `${getConfig().baseUrl}/api?v=1.0&type=webgl&ak=${getConfig().ak}&callback=_initBaiduMap`
               break;
             default:
-              $script.src = `https://api.map.baidu.com/api?v=${getConfig().v}&ak=${getConfig().ak}&callback=_initBaiduMap`
+              $script.src = `${getConfig().baseUrl}/api?v=${getConfig().v}&ak=${getConfig().ak}&callback=_initBaiduMap`
           }
         })
         return window.BMap._preloader

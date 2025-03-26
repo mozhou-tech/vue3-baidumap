@@ -78,7 +78,7 @@ export function getAddressByPoints(config: IPointToAddressConfig, aks: string[] 
                 params.ak = aks[num % aks.length];
                 let script = document.createElement('script');
                 script.id = callbackName;
-                script.src = `https://api.map.baidu.com/reverse_geocoding/v3/?${getParamsStrByObject(params)}`;
+                script.src = `${getConfig().baseUrl}/reverse_geocoding/v3/?${getParamsStrByObject(params)}`;
                 document.getElementsByTagName('head')[0]?.appendChild(script);
             };
             requestBaidu();
@@ -138,7 +138,7 @@ export function getPointByAddress(config: IAddressToPointConfig, aks: string[] =
                 params.ak = aks[num % aks.length];
                 let script = document.createElement('script');
                 script.id = callbackName;
-                script.src = `https://api.map.baidu.com/geocoding/v3/?${getParamsStrByObject(params)}`;
+                script.src = `${getConfig().baseUrl}/geocoding/v3/?${getParamsStrByObject(params)}`;
                 document.getElementsByTagName('head')[0]?.appendChild(script);
             };
             requestBaidu();
@@ -200,7 +200,7 @@ export function getPointsTransfer(config: IPointTransferConfig, aks: string[] = 
                 params.coords = params.locations.join(';');
                 let script = document.createElement('script');
                 script.id = callbackName;
-                script.src = `https://api.map.baidu.com/geoconv/v1/?${getParamsStrByObject(params)}`;
+                script.src = `${getConfig().baseUrl}/geoconv/v1/?${getParamsStrByObject(params)}`;
                 document.getElementsByTagName('head')[0]?.appendChild(script);
             };
             requestBaidu();

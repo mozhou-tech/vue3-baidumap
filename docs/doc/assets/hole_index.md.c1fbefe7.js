@@ -13,7 +13,7 @@ import{_ as n,c as s,o as a,a as t}from"./app.29bb4523.js";const g='{"title":"\u
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">setup</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
-<span class="token keyword">import</span> <span class="token punctuation">{</span> BaiduMap <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vue-baidu-map-3x&#39;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> BaiduMap <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;@mozhou-tech/vue3-baidumap&#39;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">

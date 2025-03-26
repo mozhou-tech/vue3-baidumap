@@ -4,7 +4,7 @@
 
 ```bash
 // vue3
-$ npm install vue-baidu-map-3x --save
+$ npm install @mozhou-tech/vue3-baidumap --save
 
 // vue2
 $ npm install vue2-baidu-map --save
