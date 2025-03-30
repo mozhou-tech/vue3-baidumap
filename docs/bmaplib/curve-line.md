@@ -53,7 +53,7 @@ const points = ref([
 const bmlCurveLine = ref(null);
 
 onMounted(()=>{
-  import('@mozhou-tech/vue3-baidumap/extra/CurveLine.vue').then(module=>{
+  import('@mayerblueblueblue/vue3-baidumap/extra/CurveLine.vue').then(module=>{
     bmlCurveLine.value = module.default;
   });
 });
@@ -84,7 +84,7 @@ const update = (e) => {
 
 <script setup>
 import { ref } from 'vue';
-import { BmlCurveLine } from '@mozhou-tech/vue3-baidumap';
+import { BmlCurveLine } from '@mayerblueblueblue/vue3-baidumap';
 
 const points = ref([
   { lng: 116.432045, lat: 39.910683 },

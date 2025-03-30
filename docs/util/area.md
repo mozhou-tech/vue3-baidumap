@@ -1,7 +1,7 @@
 ## 全国地区编码坐标点数据集
 
 ```js
-import AreaCodePoint from '@mozhou-tech/vue3-baidumap/dist/areaCodePoint.json';
+import AreaCodePoint from '@mayerblueblueblue/vue3-baidumap/dist/areaCodePoint.json';
 
 // 示例：
 {
@@ -17,5 +17,5 @@ import AreaCodePoint from '@mozhou-tech/vue3-baidumap/dist/areaCodePoint.json';
 
 ```js
 // main.js或者其他使用前的位置引入
-import '@mozhou-tech/vue3-baidumap/dist/AreaRestriction_min.js';
+import '@mayerblueblueblue/vue3-baidumap/dist/AreaRestriction_min.js';
 ```

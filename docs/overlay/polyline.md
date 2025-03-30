@@ -47,7 +47,7 @@
 
 <script setup>
 import { ref, toRef } from 'vue';
-import { getConfig } from '@mozhou-tech/vue3-baidumap';
+import { getConfig } from '@mayerblueblueblue/vue3-baidumap';
 
 const config = getConfig();
 

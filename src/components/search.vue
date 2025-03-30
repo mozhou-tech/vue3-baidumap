@@ -4,7 +4,7 @@
  * @Date: 2023-03-14 11:14:25
  * @LastEditTime: 2023-06-20 16:34:46
  * @LastEditors: YangJianFei
- * @FilePath: \@mozhou-tech/vue3-baidumap\src\components\search.vue
+ * @FilePath: \@mayerblueblueblue/vue3-baidumap\src\components\search.vue
 -->
 /*
  * Author: yang jian fei

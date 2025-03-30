@@ -4,7 +4,7 @@
  * @Date: 2023-03-14 11:14:25
  * @LastEditTime: 2023-11-17 13:59:29
  * @LastEditors: YangJianFei
- * @FilePath: \@mozhou-tech/vue3-baidumap\todo.md
+ * @FilePath: \@mayerblueblueblue/vue3-baidumap\todo.md
 -->
 ## injection警告去除
 ## 局部注册

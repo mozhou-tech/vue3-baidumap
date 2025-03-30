@@ -1,5 +1,5 @@
 {
-  "name": "@mozhou-tech/vue3-baidumap",
+  "name": "@mayerblueblueblue/vue3-baidumap",
   "author": "YangJianFei",
   "private": false,
   "version": "1.0.0",
@@ -24,7 +24,7 @@
     "vue2-baidu-map",
     "vue3-baidu-map",
     "vue3x-baidu-map",
-    "@mozhou-tech/vue3-baidumap",
+    "@mayerblueblueblue/vue3-baidumap",
     "vue-baidu-map-3",
     "vue-baidu-map-3.0",
     "vue-baidu-map-v3"
@@ -35,23 +35,23 @@
     "types",
     "vetur"
   ],
-  "main": "./dist/@mozhou-tech/vue3-baidumap.umd.js",
-  "module": "./dist/@mozhou-tech/vue3-baidumap.es.js",
+  "main": "./dist/@mayerblueblueblue/vue3-baidumap.umd.js",
+  "module": "./dist/@mayerblueblueblue/vue3-baidumap.es.js",
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
-      "import": "./dist/@mozhou-tech/vue3-baidumap.es.js",
-      "require": "./dist/@mozhou-tech/vue3-baidumap.umd.js"
+      "import": "./dist/@mayerblueblueblue/vue3-baidumap.es.js",
+      "require": "./dist/@mayerblueblueblue/vue3-baidumap.umd.js"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap.git"
+    "url": "git+https://github.com/YangJianFei/@mayerblueblueblue/vue3-baidumap.git"
   },
   "bugs": {
-    "url": "https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap/issues"
+    "url": "https://github.com/YangJianFei/@mayerblueblueblue/vue3-baidumap/issues"
   },
-  "homepage": "https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap#readme",
+  "homepage": "https://github.com/YangJianFei/@mayerblueblueblue/vue3-baidumap#readme",
   "license": "MIT",
   "dependencies": {
     "@yangjianfei/bmaplib.lushu": "^1.0.0",
@@ -76,7 +76,7 @@
     "typescript": "^4.8.2",
     "vite": "^2.8.0",
     "vitepress": "0.22.3",
-    "@mozhou-tech/vue3-baidumap": "file:components"
+    "@mayerblueblueblue/vue3-baidumap": "file:components"
   },
   "typings": "types/index.d.ts",
   "vetur": {

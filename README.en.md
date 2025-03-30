@@ -3,27 +3,27 @@
 ## fork vue-baidu-map  vue3 (build by vite，support baidu v2.0 、 v3.0 and webGl)
 
 <p align="center">
-  <img src="https://yangjianfei.github.io/@mozhou-tech/vue3-baidumap/favicon.png" width="200px">
+  <img src="https://yangjianfei.github.io/@mayerblueblueblue/vue3-baidumap/favicon.png" width="200px">
 </p>
 <p align="center">Baidu Map components for Vue 3.x</p>
 
-[![npm](https://img.shields.io/npm/v/@mozhou-tech/vue3-baidumap.svg)]()
+[![npm](https://img.shields.io/npm/v/@mayerblueblueblue/vue3-baidumap.svg)]()
 
 ## Languages
 
-- [中文](https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap/blob/main/README.md)
-- [English](https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap/blob/main/README.en.md)
+- [中文](https://github.com/YangJianFei/@mayerblueblueblue/vue3-baidumap/blob/main/README.md)
+- [English](https://github.com/YangJianFei/@mayerblueblueblue/vue3-baidumap/blob/main/README.en.md)
 
 ## Documentation
 
-[https://yangjianfei.github.io/@mozhou-tech/vue3-baidumap/](https://yangjianfei.github.io/@mozhou-tech/vue3-baidumap/)
+[https://yangjianfei.github.io/@mayerblueblueblue/vue3-baidumap/](https://yangjianfei.github.io/@mayerblueblueblue/vue3-baidumap/)
 
 ## Get Start
 
 ### Installation
 
 ```bash
-npm i --save @mozhou-tech/vue3-baidumap
+npm i --save @mayerblueblueblue/vue3-baidumap
 ```
 
 ### Initialization
@@ -82,7 +82,7 @@ copyright (c) 2016~now, YangJianFei <1294485765@qq.com>
 
 wechart:yjf163163  wechart group:scan me
 <div>
-  <img src="https://yangjianfei.github.io/@mozhou-tech/vue3-baidumap/heifahaizei.png" width="256px">
+  <img src="https://yangjianfei.github.io/@mayerblueblueblue/vue3-baidumap/heifahaizei.png" width="256px">
 </div>
 Hope you star!（づ￣3￣）づ╭<span style="color:red;">❤</span>～
 
@@ -92,4 +92,4 @@ Hope you star!（づ￣3￣）づ╭<span style="color:red;">❤</span>～
 - [ ] treeshaking
 
 ## updated logs
-[updated logs](https://github.com/YangJianFei/@mozhou-tech/vue3-baidumap/blob/main/docs/changelogs.md)
+[updated logs](https://github.com/YangJianFei/@mayerblueblueblue/vue3-baidumap/blob/main/docs/changelogs.md)

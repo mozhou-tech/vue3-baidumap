@@ -4,7 +4,7 @@
  * @Date: 2023-03-16 17:40:21
  * @LastEditTime: 2023-03-16 17:48:15
  * @LastEditors: YangJianFei
- * @FilePath: \@mozhou-tech/vue3-baidumap\docs\.vitepress\components\advert-card.vue
+ * @FilePath: \@mayerblueblueblue/vue3-baidumap\docs\.vitepress\components\advert-card.vue
 -->
 
 <template>

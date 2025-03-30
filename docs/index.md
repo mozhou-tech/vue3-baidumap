@@ -34,5 +34,5 @@ footer: MIT Licensed | Copyright © 2022-present YangJianFei❤️1294485765@qq.
 
 <p align="center" style="font-size: 24px;font-weight: bold;">偷窥次数</p>
 <p align="center">
-  <img src="https://profile-counter.glitch.me/@mozhou-tech/vue3-baidumap/count.svg"/>
+  <img src="https://profile-counter.glitch.me/@mayerblueblueblue/vue3-baidumap/count.svg"/>
 </p>
